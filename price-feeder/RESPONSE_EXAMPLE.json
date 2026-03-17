@@ -1,0 +1,15 @@
+{
+  "_comment": "Example successful order response from /order API",
+  "order": {
+    "maker": "0x6eDC317F3208B10c46F4fF97fAa04dD632487408",
+    "makerAsset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "takerAsset": "0x111111111117dc0aa78b770fa6a738034120c302",
+    "makerTraits": "10583315370300944271581153473907065910280",
+    "salt": "1011464539263",
+    "makingAmount": "100000000",
+    "takingAmount": "1000000000000000000",
+    "receiver": "0x0000000000000000000000000000000000000000"
+  },
+  "signature": "0xe07cb361731ce320289ca0502910423e6e0201c1fa2f5efbc5c9287855ca5abe330eb0c6bb9b7d08ccab305b3be702353f87952ff2769277fc4c4f85dd123d531b"
+}
+
