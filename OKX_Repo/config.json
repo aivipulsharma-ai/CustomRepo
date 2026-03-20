@@ -1,0 +1,25 @@
+{
+  "server": { "host": "0.0.0.0", "port": 8081 },
+  "logLevel": "info",
+  "auth": { "xApiKey": "replace-me" },
+  "maker": {
+    "address": "0x0000000000000000000000000000000000000000",
+    "privateKey": "0x"
+  },
+  "pricing": {
+    "priceMarkupBps": 30,
+    "minQuoteUsd": 200
+  },
+  "chains": [
+    { "chainIndex": "1", "chainId": 1, "settlement": "0x0Bdf246b4AEF9Cfe4DD6eEf153A1b645aC4BcBb6", "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3" },
+    { "chainIndex": "42161", "chainId": 42161, "settlement": "0x1ef032a3c471a99cc31578c8007f256d95e89896", "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3" },
+    { "chainIndex": "8453", "chainId": 8453, "settlement": "0xed97b4331fff9dc8c40936532a04ac1400f273a5", "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3" },
+    { "chainIndex": "56", "chainId": 56, "settlement": "0x9ff547bbb813a0e5d53742c7a5f7370dcea214a3", "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3" }
+  ],
+  "tokens": [
+    { "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", "symbol": "WETH", "decimals": 18 },
+    { "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7", "symbol": "USDT", "decimals": 6 },
+    { "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", "symbol": "USDC", "decimals": 6 }
+  ]
+}
+
